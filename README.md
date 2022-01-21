@@ -1,5 +1,9 @@
-# docker-compose-gvm
-# This is not mandatory  because is it for debian 10 
+# docker-compose-gvm scanner stable latest version gvm, gsa etc...
+# localenv filer to launch your docker-compose 
+
+
+
+# This is not mandatory  because is it for debian 10 if you need recompile 
   sudo apt-get update && apt-get install --no-install-recommends --no-install-suggests -y \
   sudo apt-get update && sudo apt-get install --no-install-recommends --no-install-suggests -y bison     build-essential     cliquetis     format-clang     outils-clang     cmake     lcov     libcgreen1-dev     libgnutls28-dev     libgpgme-dev     libjson-glib-dev     libksba-dev     libpcap-dev     libssh-gcrypt-dev     && sudo rm -rf /var/lib/apt/lists/*
   sudo apt-get update && apt-get install --assume-yes \
